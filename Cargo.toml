@@ -1,8 +1,17 @@
 [package]
 name = "mimxrt1062"
+description = "Device and peripheral mappings for NXP MIMXRT1062-type devices (e.g. Teensy 4.0)"
 version = "0.1.0"
 authors = ["David Flemström <david.flemstrom@gmail.com>"]
 edition = "2018"
+license = "BSD-3-Clause"
+homepage = "https://github.com/dflemstr/mimxrt1062"
+repository = "https://github.com/dflemstr/mimxrt1062"
+keywords = ["nxp", "teensy", "svd2rust", "no_std", "embedded"]
+categories = ["embedded", "no-std"]
+exclude = [
+    "svd/*",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
